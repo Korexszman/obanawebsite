@@ -124,7 +124,7 @@ const footerLinnks = [
       { label: 'Sign up as a Vendor', url: '#' },
       {
         label: 'Join our Sales Team',
-        url: 'https://forms.gle/2pyQZ4tM5fPNYWbK6',
+        url: 'https://salesforce.obana.africa/',
         target: '_blank',
       },
     ],

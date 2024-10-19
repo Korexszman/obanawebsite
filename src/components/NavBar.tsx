@@ -94,7 +94,7 @@ const NavBar = () => {
             </button>
 
             <a
-              href="https://forms.gle/2pyQZ4tM5fPNYWbK6"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="text-obGray-700 hover:text-primary flex items-center min-h-[3.1875rem]"
