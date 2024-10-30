@@ -102,7 +102,7 @@ const NavBar = () => {
               Join Our Sales Team
             </a>
             <a
-              href="vendor.obana.africa"
+              href="https://vendor.obana.africa"
               target="_blank"
               rel="noopener noreferrer"
               className="text-obGray-700 hover:text-primary flex items-center min-h-[3.1875rem]"
