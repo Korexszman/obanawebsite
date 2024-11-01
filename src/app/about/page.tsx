@@ -157,9 +157,9 @@ export default function AboutPage()
             
           </Button>
           <Button asChild variant="outline" className="bg-white text-blue-900 hover:bg-gray-100 flex items-center gap-2">
-            <a href="tel:+2347035599433">
+            <a href="tel:+2348096535511">
                 <Phone className="w-5 h-5" />
-            +234 (0) 123 456 7890
+            +2348096535511
                 </a>
           </Button>
         </div>
