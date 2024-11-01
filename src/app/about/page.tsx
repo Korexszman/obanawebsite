@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle, Mail, Phone, Shield, Clock, Wallet, Globe, Truck } from "lucide-react";
 import footerBg from '@/assets/footer-bg.png';
 import Footer from '@/components/Footer';
+import NavBar from '@/components/NavBar';
 
 export default function AboutPage()
 {
@@ -35,6 +36,7 @@ export default function AboutPage()
       }
     ];
     return   <div className="min-h-screen bg-gray-50">
+      <NavBar  />  
     {/* Hero Section */}
     <div className="relative h-[500px] bg-blue-900">
       <div className="absolute inset-0">
