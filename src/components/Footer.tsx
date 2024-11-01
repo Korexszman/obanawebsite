@@ -1,3 +1,4 @@
+"use client"
 import { scrollToTop } from '@/Utils/functions';
 import footerBg from '@/assets/footer-bg.png';
 import Image from 'next/image';
@@ -121,7 +122,7 @@ const footerLinnks = [
       },
       { label: 'Logistics Support', url: '#' },
       { label: 'Embedded Financing', url: '#' },
-      { label: 'Sign up as a Vendor', url: '#' },
+      { label: 'Sign up as a Vendor', url: 'https://vendor.obana.africa' },
       {
         label: 'Join our Sales Team',
         url: 'https://salesforce.obana.africa',

@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image';
 import Button from './Button';
 import avatarGroup from '@/assets/avatar-group.png';
@@ -13,9 +14,7 @@ const HeroBanner = () => {
             </h1>
 
             <p className="text-lg sm:text-xl mb-8 text">
-              We are connecting buyers and suppliers across the globe,
-              simplifying the sourcing process, and ensuring smooth deliveries
-              from anywhere in the world.
+            Our customers are able to source products, make make payment and have their order shipped on one platform with the opportunity of getting their purchase financed by our partners
             </p>
             <div className="flex justify-center space-x-1 max-sm:flex-col">
               <Button
@@ -30,7 +29,7 @@ const HeroBanner = () => {
             </div>
             <div className="max-sm:hidden flex items-center gap-3 justify-center mt-8 text-obGray-800">
               <Image src={avatarGroup} alt="users" className="h-10 w-auto" />
-              <span>Over 1M Happy Exporters and Importers</span>
+              <span>Over 1K Happy SME Customers</span>
             </div>
           </div>
         </div>

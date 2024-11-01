@@ -1,4 +1,3 @@
-'use client';
 import Brands from '@/components/Brands';
 import Footer from '@/components/Footer';
 import HeroBanner from '@/components/HeroBanner';

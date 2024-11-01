@@ -1,4 +1,5 @@
-import { ChevronDown, Menu, X } from 'lucide-react';
+ "use client"
+ import { ChevronDown, Menu, X } from 'lucide-react';
 import { classNames, scrollToSection, scrollToTop } from '@/Utils/functions';
 import Image from 'next/image';
 import logo from '@/assets/logo.png';
@@ -7,6 +8,7 @@ import { useState } from 'react';
 import Button from './Button';
 import { useWindowSize } from 'usehooks-ts';
 import { obIcons } from '@/assets/obIcons';
+import Link from 'next/link';
 const services = [
   {
     name: 'Export Services',
@@ -71,7 +73,7 @@ const NavBar = () => {
             >
               Home
             </button>
-            <button
+            {/* <button
               onClick={() =>
                 width >= 1024 ? scrollToSection('services') : toggleMegaMenu()
               }
@@ -91,8 +93,13 @@ const NavBar = () => {
               {isMegaMenuOpen && (
                 <MegaMenu setIsMegaMenuOpen={setIsMegaMenuOpen} />
               )}
-            </button>
-
+            </button> */}
+            <Link
+              href="/about"
+            className="text-obGray-700 hover:text-primary flex items-center min-h-[3.1875rem]"
+            >
+            About Us
+            </Link>
             <a
               href="https://salesforce.obana.africa"
               target="_blank"
@@ -102,19 +109,19 @@ const NavBar = () => {
               Join Our Sales Team
             </a>
             <a
-              href="https://vendor.obana.africa"
+              href="https://vendor.obana.africa/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-obGray-700 hover:text-primary flex items-center min-h-[3.1875rem]"
             >
-              Vendor Signup
+              Become a Vendor
             </a>
           </div>
           <div className="max-lg:flex-col flex lg:items-center gap-2.5 lg:gap-x-4">
-            <a href="https://shop.obana.africa/signup" target="_blank" style={{textDecoration: 'none'}}><Button variant="ghost">Store Sign Up</Button></a>
+            <a href="https://shop.obana.africa/signup" target="_blank" style={{textDecoration: 'none'}}><Button variant="ghost">Customer Sign Up</Button></a>
             <span className="lg:hidden border-t"></span>
             <span className="max-lg:hidden">|</span>
-            <a href="https://shop.obana.africa/signin" target="_blank" style={{textDecoration: 'none'}}><Button variant="ghost">Store Login</Button></a>
+            <a href="https://shop.obana.africa/signin" target="_blank" style={{textDecoration: 'none'}}><Button variant="ghost">Customer Login</Button></a>
             <Button
               icon
               onClick={() =>

@@ -1,3 +1,5 @@
+
+"use client"
 import { useState } from 'react';
 import abroad from '@/assets/abroad.png';
 import nigeria from '@/assets/nigeria.png';
