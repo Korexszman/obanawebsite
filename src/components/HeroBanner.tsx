@@ -10,11 +10,13 @@ const HeroBanner = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-main-blue">
-              Sub-Sahara Africa's Sourcing Marketplace Platform
+            Helping SMEs Grow Their Business By Removing Supply Chain Fragmentation
             </h1>
 
             <p className="text-lg sm:text-xl mb-8 text">
-            Our customers are able to source products, make make payment and have their order shipped on one platform with the opportunity of getting their purchase financed by our partners
+            We empower SMEs across africa, 
+            guiding them through the challenges of the fragmented supply chain 
+            (product sourcing, payment, logistics & inventory financing) inherent in sub-Saharan Africa
             </p>
             <div className="flex justify-center space-x-1 max-sm:flex-col">
               <Button
@@ -25,7 +27,7 @@ const HeroBanner = () => {
               >
                 Browse Products
               </Button>
-              <Button variant="ghost"> Get Started Now</Button>
+              {/* <Button variant="ghost"> Get Started Now</Button> */}
             </div>
             <div className="max-sm:hidden flex items-center gap-3 justify-center mt-8 text-obGray-800">
               <Image src={avatarGroup} alt="users" className="h-10 w-auto" />

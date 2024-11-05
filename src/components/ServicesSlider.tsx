@@ -116,21 +116,23 @@ const ServicesSlider = () => {
 export default ServicesSlider;
 
 const services = [
+  // {
+  //   title: 'Export Services',
+  //   description:
+  //     'We help businesses in Sub-Saharan Africa access international markets by exporting goods efficiently and compliantly.',
+  //   imgSrc: exportImg, // Replace with actual image paths
+  //   buttonLabel: 'Get Started',
+  //   bg: 'bg-[#F5F2EB]',
+  // },
   {
-    title: 'Export Services',
+    title: 'Market Entry/Virtual Distirbution',
     description:
-      'We help businesses in Sub-Saharan Africa access international markets by exporting goods efficiently and compliantly.',
-    imgSrc: exportImg, // Replace with actual image paths
-    buttonLabel: 'Get Started',
-    bg: 'bg-[#F5F2EB]',
-  },
-  {
-    title: 'Import Services',
-    description:
-      'Sourcing quality products from suppliers worldwide, making importing into Africa faster and more reliable.',
+      'We handle all aspects of sales management, including lead generation, customer relationship management, and performance tracking, ensuring your brand maintains a strong presence and achieves growth.',
     imgSrc: importImg,
     buttonLabel: 'Get Started',
+    href: 'https://salesforce.obana.africa/',
     bg: 'bg-[#E8EDF8]',
+   
   },
   {
     title: 'Inventory Financing',

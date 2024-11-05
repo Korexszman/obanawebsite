@@ -8,7 +8,8 @@ const Services = () => {
         <Headding
           smallText="Our Services"
           headerText="Comprehensive Solutions for Your Business Needs"
-          subText="Experience seamless import and export solutions tailored to your needs with Obana Africa. Our platform ensures you get the best prices and reliable shipping every time."
+          subText="Focus on growing your business, let obana.africa help you work about your end to end sourcing needs
+"
           className="max-w-[738px] text-center mx-auto"
         />
         <ServicesSlider />

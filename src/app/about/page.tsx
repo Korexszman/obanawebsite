@@ -17,21 +17,21 @@ export default function AboutPage()
         icon: <Wallet className="w-12 h-12 text-primary" />,
         image: "https://media.istockphoto.com/id/1152372225/photo/depositing-check.webp?a=1&b=1&s=612x612&w=0&k=20&c=oAmw6LnjxOFjYgZCnCKDi62qmsrG-lYWHsrc_DdRA-8=",
         title: "Inventory Financing",
-        description: "Flexible financing solutions to help you scale your business without capital constraints.",
+        description: "Unlock your business's potential with our inventory financing solutions, providing the capital you need to purchase and manage stock efficiently, allowing for improved cash flow and enhanced growth opportunities.",
         bgColor: "bg-green-50"
       },
       {
         icon: <Globe className="w-12 h-12 text-primary" />,
         image: "https://images.unsplash.com/photo-1616077168079-7e09a677fb2c?q=80",
-        title: "Multi-Currency Payment Support",
-        description: "Seamless transactions in multiple currencies with secure payment processing.",
+        title: "Market Entry/Virtual Distirbution",
+        description: "Facilitate your brand's expansion with our market entry and virtual distribution services, providing strategic insights and efficient sales management to help you succeed in new markets.",
         bgColor: "bg-green-50"
       },
       {
         icon: <Truck className="w-12 h-12 text-primary" />,
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Ct_eqHUquX9j3ovKRcWuRJpTzysZ35LRWQ&s",
-        title: "Effortless Logistics",
-        description: "End-to-end logistics solutions ensuring timely and secure deliveries across Africa.",
+        title: "End to End Sourcing Solution",
+        description: "Simplify your procurement process with our comprehensive sourcing solution, managing everything from supplier selection to logistics, so you can focus on growing your business",
         bgColor: "bg-green-50"
       }
     ];
@@ -49,7 +49,7 @@ export default function AboutPage()
       <div className="relative container mx-auto px-6 py-32">
         <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">Who We Are</h1>
         <p className="text-xl text-gray-100 max-w-2xl">
-          Welcome to Obana.africa, Sub-Saharan Africa's premier sourcing marketplace platform.
+        Welcome to Obana.Africa! We have now combined all our SMEs' needs into one platform.
         </p>
       </div>
     </div>
@@ -60,10 +60,9 @@ export default function AboutPage()
         <div>
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Journey</h2>
           <p className="text-gray-600 text-lg leading-relaxed">
-            What began as Fazsion Wholesales, a distributor of authentic European fashion brands, 
-            has evolved into Obana.africa—an ecosystem for B2B e-commerce. Our platform now empowers 
-            vendors and businesses with seamless plug-in access for vendors, a dedicated sales force, 
-            logistics support, secure payment solutions, and inventory financing options.
+          With the advent of marketplaces in our local e-commerce platform in Nigeria, 
+          we saw the need to source and supply retailers with authentic goods to sell on these e-commerce platforms. We have been in operation for over 8 years, 
+          and we are now expanding the ecosystem to encompass all the lessons learned over the years.
           </p>
         </div>
         <div className="relative h-[400px] rounded-xl overflow-hidden shadow-2xl">
@@ -106,15 +105,18 @@ export default function AboutPage()
           <div>
             <h2 className="text-3xl font-bold mb-4">Our Vision</h2>
             <p className="text-gray-100 text-lg">
-              To be Africa's trusted partner in trade, fostering connections that empower 
-              vendors and businesses alike.
+            Driven by our core values of reliability, authenticity, transparency and community, 
+            Obana.africa is here to bridge the gap between dreams and access,
+             becoming the trusted source that businesses turn to for prosperity and progress.
             </p>
           </div>
           <div>
             <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
             <p className="text-gray-100 text-lg">
-              We are here to support African businesses by simplifying global sourcing, 
-              making it accessible, reliable, and inclusive.
+            Our mission is simple; to help African SMEs focus on growing their businesses 
+            while we carter to their product assortment needs, efficient logistics, 
+            payment and inventory financing.
+
             </p>
           </div>
         </div>
@@ -125,10 +127,10 @@ export default function AboutPage()
         <h2 className="text-3xl font-bold text-center mb-12">Our Values</h2>
         <div className="grid md:grid-cols-4 gap-6">
           {[
-            { title: "Trust", desc: "Built on transparency, authenticity, and integrity." },
-            { title: "Collaboration", desc: "Partnering with vendors and businesses to ensure mutual success." },
-            { title: "Innovation", desc: "Continuously enhancing our platform to meet evolving trade needs." },
-            { title: "Customer-Centricity", desc: "Committed to exceptional service and support for every client." }
+            { title: "Reliability", desc: "We provide consistent and dependable service that our partners can trust." },
+            { title: "Authenticity", desc: "We foster genuine relationships by staying true to our mission and values." },
+            { title: "Transparency", desc: "We maintain open communication and accountability in all our operations." },
+            { title: "Community", desc: "We are dedicated to building strong connections and supporting the growth of our local communities." }
           ].map((value, index) => (
             <Card key={index} className="p-6 hover:shadow-xl transition-shadow duration-300">
               <CardContent>

@@ -35,7 +35,7 @@ const settings = {
 const Brands = () => {
   return (
     <section className="container mx-auto px-4 space-y-8">
-      <Headding smallText="Get access to 4,000+ brands across globe" />
+      <Headding smallText="Over 100 global brands and growing every day" />
       <div>
         {/* Brand Item */}
         <SlickSlider settings={settings} slideLength={brands?.length}>
