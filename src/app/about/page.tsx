@@ -9,27 +9,27 @@ import NavBar from '@/components/NavBar';
 
 export default function AboutPage()
 {
-    const heroImage = "https://smarttoolsai.com/storage/73/E-commerce-Guide.webp";
-    const journeyImage = "https://media.istockphoto.com/id/1444496512/photo/black-businesswoman-working-in-the-office.webp?a=1&b=1&s=612x612&w=0&k=20&c=Ir0sfzEST0jJlhmnOb_GMnC58AXf1sN99U_sLwafhcU=";
+    const heroImage = "https://res.cloudinary.com/digm76oyr/image/upload/v1730892485/About-us-header_fkcn8j.jpg";
+    const journeyImage = "https://res.cloudinary.com/digm76oyr/image/upload/v1730892484/Our-Journey_nkirnc.jpg";
     
     const uspItems = [
       {
         icon: <Wallet className="w-12 h-12 text-primary" />,
-        image: "https://media.istockphoto.com/id/1152372225/photo/depositing-check.webp?a=1&b=1&s=612x612&w=0&k=20&c=oAmw6LnjxOFjYgZCnCKDi62qmsrG-lYWHsrc_DdRA-8=",
+        image: "https://res.cloudinary.com/digm76oyr/image/upload/v1730892485/Inventory-financing_uv1yb0.jpg",
         title: "Inventory Financing",
         description: "Unlock your business's potential with our inventory financing solutions, providing the capital you need to purchase and manage stock efficiently, allowing for improved cash flow and enhanced growth opportunities.",
         bgColor: "bg-green-50"
       },
       {
         icon: <Globe className="w-12 h-12 text-primary" />,
-        image: "https://images.unsplash.com/photo-1616077168079-7e09a677fb2c?q=80",
+        image: "https://res.cloudinary.com/digm76oyr/image/upload/v1730892485/Market-Entry_szzidg.jpg",
         title: "Market Entry/Virtual Distirbution",
         description: "Facilitate your brand's expansion with our market entry and virtual distribution services, providing strategic insights and efficient sales management to help you succeed in new markets.",
         bgColor: "bg-green-50"
       },
       {
         icon: <Truck className="w-12 h-12 text-primary" />,
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Ct_eqHUquX9j3ovKRcWuRJpTzysZ35LRWQ&s",
+        image: "https://res.cloudinary.com/digm76oyr/image/upload/v1730892485/end-to-end-sourcing_zfnt02.jpg",
         title: "End to End Sourcing Solution",
         description: "Simplify your procurement process with our comprehensive sourcing solution, managing everything from supplier selection to logistics, so you can focus on growing your business",
         bgColor: "bg-green-50"
@@ -49,7 +49,7 @@ export default function AboutPage()
       <div className="relative container mx-auto px-6 py-32">
         <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">Who We Are</h1>
         <p className="text-xl text-gray-100 max-w-2xl">
-        Welcome to Obana.Africa! We have now combined all our SMEs' needs into one platform.
+        We empower businesses across Africa to thrive with solutions that simplify sourcing, financing, and logistics, we’re here to guide you through every step of the supply chain, making growth and efficiency accessible to businesses of all sizes.
         </p>
       </div>
     </div>

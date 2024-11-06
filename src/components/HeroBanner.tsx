@@ -10,7 +10,7 @@ const HeroBanner = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-main-blue">
-            Helping SMEs grow their businesses by removing supply chain fragmentation
+            Unlocking SME growth in Sub Saharan Africa by bridging supply chain gaps and complexities
             </h1>
 
             <p className="text-lg sm:text-xl mb-8 text">
