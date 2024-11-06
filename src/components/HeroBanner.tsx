@@ -9,7 +9,7 @@ const HeroBanner = () => {
       <section className="py-10 sm:py-20 mb-10 sm:mb-20 bg-obGray-100 w-[95%] md:w-[97%] mx-auto rounded-lg">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-main-blue">
+            <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-[#1b3b5f]">
             Helping SMEs grow their businesses by removing supply chain fragmentation
             </h1>
 

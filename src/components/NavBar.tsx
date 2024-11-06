@@ -2,7 +2,7 @@
  import { ChevronDown, Menu, X } from 'lucide-react';
 import { classNames, scrollToSection, scrollToTop } from '@/Utils/functions';
 import Image from 'next/image';
-import logo from '@/assets/logo.png';
+import logo from '@/assets/obana.africa.png';
 import serviceImg from '@/assets/mega-menu-img.png';
 import { useState } from 'react';
 import Button from './Button';
@@ -49,7 +49,7 @@ const NavBar = () => {
           <Image
             src={logo}
             alt="Obana.Africa"
-            className="object-cover h-full"
+            className="object-contain h-full w-[150px]"
           />
           <div className="flex items-center lg:hidden">
             <button
@@ -66,7 +66,7 @@ const NavBar = () => {
             'justify-between lg:items-center flex-1 w-full lg:text-sm xl:text-base gap-6'
           )}
         >
-          <div className="max-lg:flex-col flex lg:items-center lg:space-x-4 xl:space-x-8 ">
+          <div className="max-lg:flex-col flex lg:items-center lg:space-x-4 xl:space-x-8 ml-4">
             <button
               onClick={scrollToTop}
               className="text-obGray-700 hover:text-primary max-lg:text-left min-h-[3.1875rem]"

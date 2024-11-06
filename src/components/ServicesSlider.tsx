@@ -92,7 +92,7 @@ const ServicesSlider = () => {
               <div className=" mt-auto">
                 <Button
                   variant="ghost"
-                  className="bg-white border-[#D0D5DD] border px-4 py-2 rounded-md"
+                  className="bg-white border-[#D0D5DD]  border px-4 py-2 rounded-md hover:bgblack"
                   icon
                 >
                   {service.buttonLabel}
@@ -131,7 +131,7 @@ const services = [
     imgSrc: importImg,
     buttonLabel: 'Get Started',
     href: 'https://salesforce.obana.africa/',
-    bg: 'bg-[#E8EDF8]',
+    bg: 'bg-[#A0E2FB]',
    
   },
   {
@@ -140,7 +140,7 @@ const services = [
       "Need to purchase goods but don't have enough funds? We offer flexible financing solutions to help you manage inventory.",
     imgSrc: financing,
     buttonLabel: 'Get Started',
-    bg: 'bg-[#E6F5EB]',
+    bg: 'bg-[#B9E9E2]',
   },
   {
     title: 'Logistics Solutions',
@@ -148,6 +148,6 @@ const services = [
       'Seamless logistics and shipping services that ensure your goods are delivered on time, no matter the destination.',
     imgSrc: logistics,
     buttonLabel: 'Get Started',
-    bg: 'bg-[#FCEEEF]',
+    bg: 'bg-[#DCFBF9]',
   },
 ];

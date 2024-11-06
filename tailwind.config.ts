@@ -18,7 +18,7 @@ const config: Config = {
   			},
   			'main-blue': '#101828',
   			obGray: {
-  				'100': '#F2F4F7',
+  				'100': '#DCFBF9',
   				'200': '#EAECF0',
   				'400': '#98A2B3',
   				'500': '#667085',

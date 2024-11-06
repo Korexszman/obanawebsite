@@ -11,7 +11,8 @@ import SlickSlider from './Slider';
 const brands = [jJ, bohooman, ralph, tommy, zara, blend];
 
 const settings = {
-  centerPadding: '60px',
+  // centerPadding: '60px',
+   centerMode: true,
   infinite: true,
   slidesToShow: 4,
   slidesToScroll: 1,
@@ -19,6 +20,7 @@ const settings = {
   speed: 2000,
   autoplaySpeed: 2000,
   cssEase: 'linear',
+  adaptiveHeight: true,
   responsive: [
     {
       breakpoint: 1024,
@@ -30,29 +32,32 @@ const settings = {
         autoplaySpeed: 5000,
       },
     },
+    {// For mobile screens
+      breakpoint: 640, 
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
   ],
 };
 const Brands = () => {
   return (
-    <section className="container mx-auto px-4 space-y-8">
-      <Headding smallText="Over 100 global brands and growing every day" />
-      <div>
-        {/* Brand Item */}
-        <SlickSlider settings={settings} slideLength={brands?.length}>
-          {brands.map((brand, i) => (
-            <div key={i}>
-              <div className="h-full max-h-[5.3125rem] w-max max-w-[17.5rem] overflow-hidden shrink-0 ">
-                <Image
-                  src={brand}
-                  alt="brand"
-                  className="h-[70%] w-auto object-contain"
-                />
-              </div>
-            </div>
-          ))}
-        </SlickSlider>
-      </div>
-    </section>
+		<section className="container mx-auto px-4 space-y-8">
+			<Headding smallText="Over 100 global brands and growing every day" />
+			<div>
+				{/* Brand Item */}
+				<SlickSlider settings={settings} slideLength={brands?.length}>
+					{brands.map((brand, i) => (
+						<div key={i}>
+							<div className="h-full max-h-[5.3125rem] w-full max-w-[10rem] overflow-hidden shrink-0 flex items-center justify-center">
+								<Image src={brand} alt="brand" className="h-[70%] w-auto object-contain" />
+							</div>
+						</div>
+					))}
+				</SlickSlider>
+			</div>
+		</section>
   );
 };
 
