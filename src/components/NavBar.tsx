@@ -67,12 +67,13 @@ const NavBar = () => {
           )}
         >
           <div className="max-lg:flex-col flex lg:items-center lg:space-x-4 xl:space-x-8 ml-4">
-            <button
+            <a
+              href='/'
               onClick={scrollToTop}
-              className="text-obGray-700 hover:text-primary max-lg:text-left min-h-[3.1875rem]"
+              className="text-obGray-700 hover:text-primary max-lg:text-left flex items-center min-h-[3.1875rem]"
             >
               Home
-            </button>
+            </a>
             {/* <button
               onClick={() =>
                 width >= 1024 ? scrollToSection('services') : toggleMegaMenu()

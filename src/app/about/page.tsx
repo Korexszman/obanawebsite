@@ -17,7 +17,7 @@ export default function AboutPage() {
 			title: "Inventory Financing",
 			description:
 				"Unlock your business's potential with our inventory financing solutions, providing the capital you need to purchase and manage stock efficiently, allowing for improved cash flow and enhanced growth opportunities.",
-			bgColor: "bg-[#7fdbd4]",
+			bgColor: "bg-[#dcfbf9]",
 		},
 		{
 			icon: <Globe className="w-12 h-12 text-primary" />,
@@ -25,14 +25,14 @@ export default function AboutPage() {
 			title: "Market Entry/Virtual Distirbution",
 			description:
 				"Facilitate your brand's expansion with our market entry and virtual distribution services, providing strategic insights and efficient sales management to help you succeed in new markets.",
-			bgColor: "bg-[#7fdbd4]",
+			bgColor: "bg-[#dcfbf9]",
 		},
 		{
 			icon: <Truck className="w-12 h-12 text-primary" />,
 			image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Ct_eqHUquX9j3ovKRcWuRJpTzysZ35LRWQ&s",
 			title: "End to End Sourcing Solution",
 			description: "Simplify your procurement process with our comprehensive sourcing solution, managing everything from supplier selection to logistics, so you can focus on growing your business",
-			bgColor: "bg-[#7fdbd4]",
+			bgColor: "bg-[#dcfbf9]",
 		},
 	];
 	return (

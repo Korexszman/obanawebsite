@@ -20,7 +20,8 @@
           "text-wrap: balance"
         ]
       }
-    ]
+    ],
+    "button-type": "off"
   },
   "browserslist": [
     "defaults",
