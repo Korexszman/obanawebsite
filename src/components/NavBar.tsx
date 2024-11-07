@@ -129,8 +129,7 @@ const NavBar = () => {
                 window.open('https://shop.obana.africa/', '_blank')
               }
             >
-              {' '}
-              Order Now
+             Browse products
             </Button>
           </div>
         </div>
