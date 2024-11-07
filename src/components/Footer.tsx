@@ -52,14 +52,20 @@ const Footer = () => {
         <div className="mt-12 ">
           <div className="flex flex-col gap-2.5 items-center">
             <div className="w-full md:w-auto mb-4 md:mb-0 text-center">
+              <div className='flex justify-center items-center flex-col'>
               <span className="text-obGray-400">
-                © 2024 Obana Limited. All rights reserved.
+                obana.africa
               </span>
+              <span className="text-obGray-400">
+                A trade mark of ICON Tech & Ecommerce Service Ltd 2024
+                </span>
+              </div>
             </div>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-gray-600">
                 <svg
-                  className="w-6 h-6"
+                  className="w-6
+                   h-6"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >

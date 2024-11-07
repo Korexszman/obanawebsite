@@ -63,10 +63,10 @@ const NavBar = () => {
         <div
           className={classNames(
             isMenuOpen ? 'flex flex-col lg:flex-row' : 'hidden lg:flex',
-            'justify-between lg:items-center flex-1 w-full lg:text-sm xl:text-base gap-6'
+            'justify-between lg:items-center flex-1 w-full lg:text-sm xl:text-base gap-5'
           )}
         >
-          <div className="max-lg:flex-col flex lg:items-center lg:space-x-4 xl:space-x-8 ml-4">
+          <div className="max-lg:flex-col flex lg:items-center lg:space-x-3 xl:space-x-7 ml-2">
             <a
               href='/'
               onClick={scrollToTop}
@@ -118,7 +118,7 @@ const NavBar = () => {
               Become a Vendor
             </a>
           </div>
-          <div className="max-lg:flex-col flex lg:items-center gap-2.5 lg:gap-x-4">
+          <div className="max-lg:flex-col flex lg:items-center gap-2.5 lg:gap-x-2">
             <a href="https://shop.obana.africa/signup" target="_blank" style={{textDecoration: 'none'}}><Button variant="ghost">Customer Sign Up</Button></a>
             <span className="lg:hidden border-t"></span>
             <span className="max-lg:hidden">|</span>
