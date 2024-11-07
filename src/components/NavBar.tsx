@@ -49,7 +49,7 @@ const NavBar = () => {
           <Image
             src={logo}
             alt="Obana.Africa"
-            className="object-contain h-full w-[150px]"
+            className="object-contain h-full w-[120px]"
           />
           <div className="flex items-center lg:hidden">
             <button
