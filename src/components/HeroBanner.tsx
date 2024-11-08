@@ -17,8 +17,8 @@ const HeroBanner = () => {
 							We empower SMEs across africa, guiding them through the challenges of the fragmented supply chain (product sourcing, payment, logistics & inventory financing) inherent in
 							sub-Saharan Africa
 						</p>
-						<div className="flex justify-center space-x-1 max-sm:flex-col">
-							<Button icon onClick={() => window.open("https://shop.obana.africa/", "_blank")}>
+						<div className="flex justify-center space-x-1 max-sm:flex-col items-center">
+							<Button className="w-[200px]" icon onClick={() => window.open("https://shop.obana.africa/", "_blank")}>
 								Browse Products
 							</Button>
 							{/* <Button variant="ghost"> Get Started Now</Button> */}
