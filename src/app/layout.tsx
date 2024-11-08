@@ -1,40 +1,22 @@
-import type { Metadata } from 'next';
-import localFont from 'next/font/local';
-import './globals.css';
+import "./globals.css";
+import RootLayout from "./RootLayout"; 
 
-const geistSans = localFont({
-  src: './fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900',
-});
-const geistMono = localFont({
-  src: './fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
-  weight: '100 900',
-});
-
-export const metadata: Metadata = {
-  title: 'obana.africa/about',
-  description: 'about us page',
+export const metadata = {
+	title: "Obana.Africa | Sub-Sahara Africa's Sourcing Marketplace Platform",
+	description: "About us page",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <head>
-        <title>
-          Obana.Africa | Sub-Sahara Africa's Sourcing Marketplace Platform
-        </title>
-      </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
+export default function Layout({ children }: { children: React.ReactNode }) {
+	return (
+		<html lang="en">
+			<head>
+				<title>{metadata.title}</title>
+				<meta name="description" content={metadata.description} />
+			</head>
+			<body className="antialiased">
+				{/* Wrap children with RootLayout which includes the Zoho SalesIQ script */}
+				<RootLayout>{children}</RootLayout>
+			</body>
+		</html>
+	);
 }
