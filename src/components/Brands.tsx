@@ -50,8 +50,8 @@ const Brands = () => {
 				<SlickSlider settings={settings} slideLength={brands?.length}>
 					{brands.map((brand, i) => (
 						<div key={i}>
-							<div className="h-full max-h-[5.3125rem] w-full max-w-[10rem] overflow-hidden shrink-0 flex items-center justify-center">
-								<Image src={brand} alt="brand" className="h-[70%] w-auto object-contain" />
+							<div className="h-full max-h-[5.3125rem] w-full max-w-[10rem] overflow-hidden shrink-0 flex items-center justify-center mt-4">
+								<Image src={brand} alt="brand" className="h-[110px] md:h-[200px]  w-auto object-contain" />
 							</div>
 						</div>
 					))}

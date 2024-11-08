@@ -52,8 +52,6 @@ const ServicesSlider = () => {
                     <p className="mb-4 max-md:text-sm">{service.description}</p>
                     <div className=" mt-auto">
                       <Button
-                        variant="ghost"
-                        className="bg-white border-[#D0D5DD] border px-4 py-2 rounded-md"
                         icon
                       >
                         {service.buttonLabel}
