@@ -23,7 +23,7 @@ const Headding = ({
 				<small
 					className={classNames(
 						size === "sm" ? "text-base" : "text-lg font-semibold",
-						"bg-white text-main-blue border border-obGray-200 rounded-full font-semibold px-6 py-2 shadow-[0px_0px_0px_3px_#F2F4F7B2,inset_0px_-3px_4px_0px_#2b6e6492]"
+						"box-decoration-clone leading-10 bg-white text-main-blue border border-obGray-200 rounded-full font-semibold px-6 py-2 shadow-[0px_0px_0px_3px_#F2F4F7B2,inset_0px_-3px_4px_0px_#2b6e6492]"
 					)}
 				>
 					{smallText}
