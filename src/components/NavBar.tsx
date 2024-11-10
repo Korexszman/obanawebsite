@@ -102,7 +102,7 @@ const NavBar = () => {
             About Us
             </Link>
             <a
-              href="https://salesforce.obana.africa"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-obGray-700 hover:text-primary flex items-center min-h-[3.1875rem]"
