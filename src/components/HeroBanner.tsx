@@ -9,21 +9,21 @@ const HeroBanner = () => {
 			<section className="py-10 sm:py-20 mb-10 sm:mb-20 bg-obGray-100 w-[95%] md:w-[97%] mx-auto rounded-lg">
 				<div className="container mx-auto px-2">
 					<div className="max-w-4xl mx-auto text-center">
-						<h1 className="text-4xl md:text-5xl md:leading-[1.2] font-extrabold mb-6 text-[#1b3b5f]">
+						<h1 className="text-4xl md:text-5xl md:leading-[1.2] font-extrabold mb-6 text-[#1b3b5f]" data-aos="zoom-out-up">
 							Unlocking SME growth in Sub Saharan Africa by bridging supply chain gaps and complexities
 						</h1>
 
-						<p className="text-lg sm:text-xl mb-8 text max-w-3xl mx-auto">
+						<p className="text-lg sm:text-xl mb-8 text max-w-3xl mx-auto" data-aos="fade-up">
 							We empower SMEs across africa, guiding them through the challenges of the fragmented supply chain (product sourcing, payment, logistics & inventory financing) inherent in
 							sub-Saharan Africa
 						</p>
-						<div className="flex justify-center space-x-1 max-sm:flex-col items-center">
+						<div className="flex justify-center space-x-1 max-sm:flex-col items-center" data-aos="zoom-in-up">
 							<Button className="w-[200px]" icon onClick={() => window.open("https://shop.obana.africa/", "_blank")}>
 								Browse Products
 							</Button>
 							{/* <Button variant="ghost"> Get Started Now</Button> */}
 						</div>
-						<div className="max-sm:hidden flex items-center gap-3 justify-center mt-8 text-obGray-800">
+						<div className="max-sm:hidden flex items-center gap-3 justify-center mt-8 text-obGray-800" data-aos="zoom-in-up">
 							<Image src={avatarGroup} alt="users" className="h-10 w-auto" />
 							<span>Over 1K Happy SME Customers</span>
 						</div>

@@ -1,4 +1,7 @@
+"use client";
 import React from "react";
+import { useEffect } from "react";
+import AOS from "aos";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Mail, Phone, Shield, Clock, Wallet, Globe, Truck } from "lucide-react";
@@ -7,6 +10,16 @@ import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 
 export default function AboutPage() {
+	useEffect(() => {
+		AOS.init({
+			delay: 50,
+			offset:100,
+			duration: 1000,
+			easing: "ease-in-out",
+			once: false,
+			mirror: true,
+		});
+	}, []);
 	const heroImage = "https://res.cloudinary.com/digm76oyr/image/upload/v1730892485/About-us-header_fkcn8j.jpg";
 	const journeyImage = "https://res.cloudinary.com/digm76oyr/image/upload/v1730892484/Our-Journey_nkirnc.jpg";
 
@@ -39,27 +52,32 @@ export default function AboutPage() {
 		<div className="min-h-screen bg-gray-50">
 			<NavBar />
 			{/* Hero Section */}
-			<div className="relative h-[500px] bg-blue-900">
+			<div className="relative h-[500px] bg-blue-900" data-aos="fade-up">
 				<div className="absolute inset-0">
 					<img src={heroImage} alt="African marketplace" className="w-full h-full object-cover opacity-40" />
 				</div>
 				<div className="relative container mx-auto px-6 py-32">
-					<h1 className="text-5xl md:text-6xl font-bold text-white mb-6">Who We Are</h1>
-					<p className="text-xl text-gray-100 max-w-2xl">We empower businesses across Africa to thrive with solutions that simplify sourcing, financing, and logistics, we’re here to guide you through every step of the supply chain, making growth and efficiency accessible to businesses of all sizes.</p>
+					<h1 className="text-5xl md:text-6xl font-bold text-white mb-6" data-aos="fade-left">
+						Who We Are
+					</h1>
+					<p className="text-xl text-gray-100 max-w-2xl" data-aos="fade-right">
+						We empower businesses across Africa to thrive with solutions that simplify sourcing, financing, and logistics, we’re here to guide you through every step of the supply chain, making
+						growth and efficiency accessible to businesses of all sizes.
+					</p>
 				</div>
 			</div>
 
 			{/* Journey Section */}
 			<div className="container mx-auto px-6 py-16">
 				<div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-					<div>
+					<div data-aos="fade-right">
 						<h2 className="text-3xl font-bold text-gray-800 mb-6">Our Journey</h2>
 						<p className="text-gray-600 text-lg leading-relaxed">
 							With the advent of marketplaces in our local e-commerce platform in Nigeria, we saw the need to source and supply retailers with authentic goods to sell on these e-commerce
 							platforms. We have been in operation for over 8 years, and we are now expanding the ecosystem to encompass all the lessons learned over the years.
 						</p>
 					</div>
-					<div className="relative h-[400px] rounded-xl overflow-hidden shadow-2xl">
+					<div className="relative h-[400px] rounded-xl overflow-hidden shadow-2xl" data-aos="fade-left">
 						<img src={journeyImage} alt="Our journey" className="w-full h-full object-cover" />
 					</div>
 				</div>
