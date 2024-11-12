@@ -23,17 +23,28 @@ const Headding = ({
 				<small
 					className={classNames(
 						size === "sm" ? "text-base" : "text-lg font-semibold",
-						"box-decoration-clone leading-10 bg-white text-main-blue border border-obGray-200 rounded-full font-semibold px-6 py-2 shadow-[0px_0px_0px_3px_#F2F4F7B2,inset_0px_-3px_4px_0px_#2b6e6492]"
+						"box-decoration-clone leading-10 bg-white text-main-blue border border-obGray-200 rounded-full font-semibold px-6 py-2 shadow-[0px_0px_0px_3px_#F2F4F7B2,inset_0px_-3px_4px_0px_#2b6e645a]"
 					)}
+					data-aos="fade-up"
 				>
 					{smallText}
 				</small>
 			)}
 			{headerText && (
-				<h2 className={classNames(light ? "text-current" : "text-main-blue", headTextClass ?? "lg:text-5xl", "text-[2.375rem] max-lg:leading-[2.85rem] lg:text-5xl font-bold")}>{headerText}</h2>
+				<h2
+					className={classNames(light ? "text-current" : "text-main-blue", headTextClass ?? "lg:text-5xl", "text-[2.375rem] max-lg:leading-[2.85rem] lg:text-5xl font-bold")}
+					data-aos="zoom-out-up"
+					data-aos-anchor-placement="top-bottom"
+				>
+					{headerText}
+				</h2>
 			)}
 
-			{subText && <p className="text-lg lg:text-[22px]">{subText}</p>}
+			{subText && (
+				<p className="text-lg lg:text-[22px]" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+					{subText}
+				</p>
+			)}
 		</div>
   );
 };
