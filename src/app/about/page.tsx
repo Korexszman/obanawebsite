@@ -21,7 +21,7 @@ export default function AboutPage() {
 		},
 		{
 			icon: <Globe className="w-12 h-12 text-primary" />,
-			image: "https://res.cloudinary.com/digm76oyr/image/upload/v1730892485/end-to-end-sourcing_zfnt02.jpg",
+			image: "https://res.cloudinary.com/digm76oyr/image/upload/v1730892485/Market-Entry_szzidg.jpg",
 			title: "Market Entry/Virtual Distirbution",
 			description:
 				"Facilitate your brand's expansion with our market entry and virtual distribution services, providing strategic insights and efficient sales management to help you succeed in new markets.",
@@ -89,7 +89,7 @@ export default function AboutPage() {
 						<div>
 							<h2 className="text-3xl font-bold mb-4">Our Vision</h2>
 							<p className="text-gray-100 text-lg">
-								Driven by our core values of reliability, authenticity, transparency and community, Obana.africa is here to bridge the gap between dreams and access, becoming the trusted
+								Driven by our core values of reliability, authenticity, transparency and community, Obana is here to bridge the gap between dreams and access, becoming the trusted
 								source that businesses turn to for prosperity and progress.
 							</p>
 						</div>

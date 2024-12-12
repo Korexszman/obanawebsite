@@ -9,13 +9,12 @@ const HeroBanner = () => {
 			<section className="py-10 sm:py-20 mb-10 sm:mb-20 bg-obGray-100 w-[95%] md:w-[97%] mx-auto rounded-lg">
 				<div className="container mx-auto px-2">
 					<div className="max-w-4xl mx-auto text-center">
-						<h1 className="text-4xl md:text-5xl md:leading-[1.2] font-extrabold mb-6 text-[#1b3b5f]">
-							Unlocking SME growth in Sub Saharan Africa by bridging supply chain gaps and complexities
+						<h1 className="text-3xl md:text-5xl md:leading-[1.2] font-extrabold mb-6 text-[#1b3b5f]">
+						Replenish your inventory from trusted vendors across the world
 						</h1>
 
 						<p className="text-lg sm:text-xl mb-8 text max-w-3xl mx-auto">
-							We empower SMEs across africa, guiding them through the challenges of the fragmented supply chain (product sourcing, payment, logistics & inventory financing) inherent in
-							sub-Saharan Africa
+						"We enable Nigerian SMEs in the fashion, beauty and lifestyle industries to scale their businesses by being all-in-one sourcing platform"
 						</p>
 						<div className="flex justify-center space-x-1 max-sm:flex-col items-center">
 							<Button className="w-[200px]" icon onClick={() => window.open("https://shop.obana.africa/", "_blank")}>

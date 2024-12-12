@@ -54,8 +54,7 @@ const Footer = () => {
             <div className="w-full md:w-auto mb-4 md:mb-0 text-center">
               <div className='flex justify-center items-center flex-col'>
               <span className="text-obGray-400">
-                obana.africa
-              </span>
+                Obana              </span>
               <span className="text-obGray-400">
                 A trade mark of ICON Tech & Ecommerce Service Ltd 2024
                 </span>

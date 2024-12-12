@@ -2,7 +2,7 @@ import "./globals.css";
 import RootLayout from "./RootLayout"; 
 
 export const metadata = {
-	title: "Obana.Africa | Sub-Sahara Africa's Sourcing Marketplace Platform",
+	title: "Obana | Sub-Sahara Africa's Sourcing Marketplace Platform",
 	description: "About us page",
 };
 

@@ -8,7 +8,7 @@ const Services = () => {
         <Headding
           smallText="Our Services"
           headerText="Comprehensive Solutions for Your Business Needs"
-          subText="Focus on growing your business, let obana.africa help you work about your end to end sourcing needs
+          subText="Focus on growing your business, let obana help you work about your end to end sourcing needs
 "
           className="max-w-[738px] text-center mx-auto"
         />
