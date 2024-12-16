@@ -12,11 +12,11 @@ const Footer = () => {
     >
       <div className="container mx-auto px-4">
         {/* Main Footer Content */}
-        <div className="flex flex-wrap -mx-4 pt-8">
+        <div className="flex flex-wrap -mx-4 pt-4">
           {/* Logo */}
           <div className="w-full md:w-1/6 px-4 mb-8 md:mb-0">
             <div
-              className="h-[2.4375rem] overflow-hidden cursor-pointer"
+              className="md:h-[2.4375rem] h-full overflow-hidden cursor-pointer"
               onClick={scrollToTop}
             >
               <Image

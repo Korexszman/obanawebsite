@@ -12,23 +12,23 @@ import { obIcons } from '@/assets/obIcons';
 const images = [abroad, nigeria, funds, africa];
 const steps = [
   {
-    title: 'Buying from Abroad',
+    title: 'Buying From Aborad?',
     description:
-      'Explore suppliers from across the globe, compare prices, and place orders effortlessly.',
+      'We’ll help you access the best suppliers from around the globe, compare prices, and place your orders easily.',
   },
   {
-    title: 'Buying from Nigeria',
+    title: 'Buying From Nigeria?',
     description:
-      'Access a vast network of trusted local suppliers and get your products delivered fast',
+      'Our vast network of trusted local suppliers will deliver your goods without stress.',
   },
   {
-    title: 'Purchase without Funds',
-    description: 'Use our inventory financing to buy now and pay later.',
+    title: 'No Money?',
+    description: 'No problem! We’ll grant you credit facilities to buy now and pay later!',
   },
   {
-    title: 'Shipping to Africa',
+    title: 'Shipping To Africa?',
     description:
-      'Ship products into Africa from anywhere in the world with our reliable logistics partners.',
+      'Our reliable logistics partners will help you deliver fast and easily.',
   },
 ];
 const HowToUseSteps = () => {

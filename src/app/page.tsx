@@ -8,7 +8,7 @@ import Testimonials from '@/components/Testimonials';
 
 export default function Home() {
   return (
-    <>
+    <div className='overflow-hidden'>
       {/* Navigation */}
       <NavBar />
       {/* Hero Section */}
@@ -29,6 +29,6 @@ export default function Home() {
       {/* <Cta /> */}
       {/* Footer */}
       <Footer />
-    </>
+    </div>
   );
 }

@@ -123,9 +123,9 @@ const services = [
   //   bg: 'bg-[#F5F2EB]',
   // },
   {
-    title: 'Market Entry/Virtual Distirbution',
+    title: 'Comprehensive Sales Management Solutions',
     description:
-      'We handle all aspects of sales management, including lead generation, customer relationship management, and performance tracking, ensuring your brand maintains a strong presence and achieves growth.',
+      'We manage all aspects of sales, including lead generation, customer relationship management, and performance tracking. This ensures your brand maintains a strong presence and continues to grow.',
     imgSrc: importImg,
     buttonLabel: 'Get Started',
     href: 'https://salesforce.obana.africa/',
@@ -133,9 +133,9 @@ const services = [
    
   },
   {
-    title: 'Inventory Financing',
+    title: 'Inventory Financing Solution',
     description:
-      "Need to purchase goods but don't have enough funds? We offer flexible financing solutions to help you manage inventory.",
+      "Your business shouldn’t stop because you don’t have money. If you need to buy goods but don't have enough money, we’ll give you a flexible financing solution to keep your business going.",
     imgSrc: financing,
     buttonLabel: 'Get Started',
     bg: 'bg-[#B9E9E2]',
@@ -143,7 +143,7 @@ const services = [
   {
     title: 'Logistics Solutions',
     description:
-      'Seamless logistics and shipping services that ensure your goods are delivered on time, no matter the destination.',
+      'Once you buy from any of our partners, you can sit back and relax. We’ll deliver your goods to you safely no matter where you are.',
     imgSrc: logistics,
     buttonLabel: 'Get Started',
     bg: 'bg-[#DCFBF9]',

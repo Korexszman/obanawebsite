@@ -8,8 +8,9 @@ const HowToUse = () => {
         <div className="md:flex items-end">
           <div className="flex-1">
             <Headding
-              smallText="How to use the Platform"
-              headerText="Simplify Your Sourcing Process with Us"
+              smallText="What are you buying today?"
+              headerText="We’ll Make Sourcing It Easier For You.
+"
               className=""
               size="lg"
             />

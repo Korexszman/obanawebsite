@@ -9,12 +9,15 @@
 body {
 	font-family: "Inter", sans-serif;
 	font-size: 16px;
+	margin-inline: auto;
 }
 
 h1,
 h2 {
 	font-family: "Bricolage Grotesque", sans-serif;
 }
+
+
 
 @layer utilities {
 	.text-balance {

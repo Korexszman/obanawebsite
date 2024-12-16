@@ -6,11 +6,10 @@ const Services = () => {
     <section className="py-20 bg-white" id="services">
       <div className="container mx-auto px-4">
         <Headding
-          smallText="Our Services"
-          headerText="Comprehensive Solutions for Your Business Needs"
-          subText="Focus on growing your business, let obana help you work about your end to end sourcing needs
-"
-          className="max-w-[738px] text-center mx-auto"
+          smallText="What We Do"
+          headerText=" We Let You Focus On What’s Important—Your Business."
+          subText="We make it easy to source, purchase, and pay vendors worldwide for your business."
+          className=" max-w-[850px] text-center mx-auto"
         />
         <ServicesSlider />
       </div>

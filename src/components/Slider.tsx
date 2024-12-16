@@ -49,7 +49,7 @@ const SlickSlider = ({
         </div>
       )}
       {showArrows && (
-        <div className="max-md:hidden w-full flex justify-center items-center gap-4 px-4 mt-16">
+        <div className="max-md:hidden w-full flex justify-center items-center gap-4 px-4 mt-4">
           <button
             onClick={() => sliderRef.slickPrev()}
             className="bg-obGray-100 p-2 rounded-full text-obGray-500 h-10 w-10 hover:opacity-80"
