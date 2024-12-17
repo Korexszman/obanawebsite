@@ -14,7 +14,7 @@ const HeroBanner = () => {
 						</h1>
 
 						<p className="text-lg sm:text-xl mb-8 text max-w-3xl mx-auto">
-						"Shop from trusted top vendors, no matter where you are. we enable sub saharan africa smes scale their business."
+						"Shop from trusted top vendors, no matter where you are. we enable Sub Saharan Africa SMEs scale their business."
 						</p>
 						<div className="flex justify-center space-x-1 max-sm:flex-col items-center">
 							<Button className="w-[200px]" icon onClick={() => window.open("https://shop.obana.africa/", "_blank")}>
@@ -24,7 +24,7 @@ const HeroBanner = () => {
 						</div>
 						<div className="max-sm:hidden flex items-center gap-3 justify-center mt-8 text-obGray-800">
 							<Image src={avatarGroup} alt="users" className="h-10 w-auto" />
-							<span>Buy from our network of trusted partners, growing every day.</span>
+							<span>Join our network of trusted partners, growing every day.</span>
 						</div>
 					</div>
 				</div>
